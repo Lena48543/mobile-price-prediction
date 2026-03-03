@@ -1,60 +1,81 @@
-📱 Mobile Price Prediction Using Random Forest
-👩‍💻 Author
+# Mobile Phone Price Prediction 📱 
+Random Forest Regression | Machine Learning Project
 
-Olena Hrytsyk
-Data & Business Analyst | Excel • SQL • Python • Power BI
+Author: Olena Hrytsyk
 
-📌 Project Overview
+Data & Business Analyst
+Excel • SQL • Python • Power BI
+
+## 📌 Project Overview
 
 This project analyzes a dataset of mobile phones (2014–2025) to predict smartphone launch prices in the USA using Random Forest Regression.
 
-The goal was to:
+The primary objectives were to:
 
 Identify key factors influencing smartphone prices
 
-Build a predictive model
+Perform exploratory data analysis (EDA)
 
-Evaluate model performance
+Build and evaluate a machine learning model
 
 Interpret feature importance
 
-📊 Dataset
+Translate findings into business insights
+
+## 📊 Dataset
 
 Source: Kaggle – Mobiles Dataset (2025)
+https://www.kaggle.com/datasets/abdulmalik1518/mobiles-dataset-2025
 
-Features include:
+## Features Used
 
-RAM
+Company Name
 
-Battery Capacity
+Model Name
 
-Screen Size
+RAM (GB)
 
-Mobile Weight
+Battery Capacity (mAh)
+
+Screen Size (inches)
+
+Mobile Weight (grams)
 
 Processor
 
-Brand
-
 Launch Year
 
-USA Launch Price (target)
+USA Launch Price (Target Variable)
 
-🔎 Exploratory Data Analysis (EDA)
+## 🧹 Data Cleaning & Preprocessing
 
-Key insights:
+Converted textual specifications to numeric format
 
-Strong correlation between screen size, weight, and battery capacity
+Cleaned currency formatting (e.g., "USD 396,22")
 
-Right-skewed price distribution (budget phones dominate)
+One-hot encoded categorical features (Brand, Processor)
 
-Positive relationship between RAM and price
+Removed missing and inconsistent rows
 
-Brand significantly influences pricing
+Addressed multicollinearity considerations
 
-Battery capacity increases over time
+## 🔎 Exploratory Data Analysis (EDA)
 
-🤖 Model
+Key insights discovered:
+
+📈 Strong positive correlation between screen size, battery capacity, and weight
+
+💰 Right-skewed price distribution (budget phones dominate the market)
+
+📊 RAM shows a strong positive relationship with price
+
+🏷 Brand significantly influences pricing strategy
+
+🔋 Battery capacity has steadily increased over time
+
+These findings guided feature selection and model choice.
+
+## 🤖 Model Development
 
 Model Used: Random Forest Regressor
 
@@ -62,35 +83,35 @@ Why Random Forest?
 
 Handles non-linear relationships
 
-Works well with mixed data types
+Works well with mixed numeric & categorical data
 
 Robust to outliers
 
-Train/Test Split:
+No scaling required
+
+Data Split
 
 80% Training
 
 20% Testing
 
-📈 Model Performance
+## 📈 Model Performance
+### Metric	Result
+R² Score	0.84
+MAE	$105.78
+Interpretation
 
-R² Score: 0.84
+The model explains 84% of price variation
 
-MAE: $105.78
+Average prediction error is approximately $106
 
-The model explains 84% of price variation and predicts within ~$106 on average.
+Most accurate for budget and mid-range phones
 
-Most accurate for:
+Less accurate for high-end premium devices ($1500+)
 
-Budget & mid-range phones
+## 🔍 Feature Importance
 
-Less accurate for:
-
-Premium devices ($1500+)
-
-🔍 Feature Importance
-
-Top predictors:
+Top predictors of price:
 
 RAM
 
@@ -100,36 +121,48 @@ Screen Size
 
 Brand
 
-🛠 Tools Used
+These results align with real-world smartphone pricing trends.
 
-Python (Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn)
+## 🛠 Technologies Used
+
+Python
+
+Pandas
+
+NumPy
+
+Matplotlib
+
+Seaborn
+
+Scikit-learn
 
 Jupyter Notebook
 
-Random Forest Regression
+## 📚 Skills Demonstrated
 
 Data Cleaning & Feature Engineering
-
-📚 Key Skills Demonstrated
-
-Data Cleaning & Preprocessing
-
-Feature Engineering
 
 Exploratory Data Analysis
 
 Machine Learning (Regression)
 
-Model Evaluation
+Model Evaluation & Interpretation
 
-Business Insight Interpretation
+Business Insight Communication
 
-🚀 Next Improvements
+## 🚀 Future Improvements
 
-Address price imbalance
+Apply cross-validation
 
-Add cross-validation
+Address class imbalance in high-price range
 
-Try Gradient Boosting models
+Compare with Gradient Boosting models
 
-Deploy as a simple web app
+Deploy model as a simple web app
+
+## 📎 Project Structure
+mobile-price-prediction/
+│
+├── AnalysisProjectHrytsyk.ipynb
+├── README.md
