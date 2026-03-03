@@ -3,9 +3,6 @@ Random Forest Regression | Machine Learning Project
 
 Author: Olena Hrytsyk
 
-Data & Business Analyst
-Excel • SQL • Python • Power BI
-
 ## 📌 Project Overview
 
 This project analyzes a dataset of mobile phones (2014–2025) to predict smartphone launch prices in the USA using Random Forest Regression.
@@ -162,7 +159,8 @@ Compare with Gradient Boosting models
 Deploy model as a simple web app
 
 ## 📎 Project Structure
-mobile-price-prediction/
-│
-├── AnalysisProjectHrytsyk.ipynb
-├── README.md
+mobile-price-prediction
+
+💠AnalysisProjectHrytsyk.ipynb
+
+💠 README.md
