@@ -9,15 +9,15 @@ This project analyzes a dataset of mobile phones (2014–2025) to predict smartp
 
 The primary objectives were to:
 
-Identify key factors influencing smartphone prices
+- Identify key factors influencing smartphone prices
 
-Perform exploratory data analysis (EDA)
+- Perform exploratory data analysis (EDA)
 
-Build and evaluate a machine learning model
+- Build and evaluate a machine learning model
 
-Interpret feature importance
+- Interpret feature importance
 
-Translate findings into business insights
+- Translate findings into business insights
 
 ## 📊 Dataset
 
@@ -26,23 +26,23 @@ https://www.kaggle.com/datasets/abdulmalik1518/mobiles-dataset-2025
 
 ## Features Used
 
-Company Name
+💠 Company Name
 
-Model Name
+💠 Model Name
 
-RAM (GB)
+💠 RAM (GB)
 
-Battery Capacity (mAh)
+💠 Battery Capacity (mAh)
 
-Screen Size (inches)
+💠 Screen Size (inches)
 
-Mobile Weight (grams)
+💠 Mobile Weight (grams)
 
-Processor
+💠 Processor
 
-Launch Year
+💠 Launch Year
 
-USA Launch Price (Target Variable)
+💠 USA Launch Price (Target Variable)
 
 ## 🧹 Data Cleaning & Preprocessing
 
@@ -110,17 +110,18 @@ Less accurate for high-end premium devices ($1500+)
 
 Top predictors of price:
 
-RAM
+- RAM
 
-Battery Capacity
+- Battery Capacity
 
-Screen Size
+- Screen Size
 
-Brand
+- Brand
 
 These results align with real-world smartphone pricing trends.
 
-## 🛠 Technologies Used
+## 🛠 Technologies Used ![PythonPoweredGIF](https://github.com/user-attachments/assets/9b1124da-d874-4c69-83f4-f3beced75324)
+
 
 Python
 
