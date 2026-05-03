@@ -39,15 +39,15 @@ https://www.kaggle.com/datasets/abdulmalik1518/mobiles-dataset-2025
 
 ## 🧹 Data Cleaning & Preprocessing
 
-Converted textual specifications to numeric format
+- Converted textual specifications to numeric format
 
-Cleaned currency formatting (e.g., "USD 396,22")
+- Cleaned currency formatting (e.g., "USD 396,22")
 
-One-hot encoded categorical features (Brand, Processor)
+- One-hot encoded categorical features (Brand, Processor)
 
-Removed missing and inconsistent rows
+- Removed missing and inconsistent rows
 
-Addressed multicollinearity considerations
+- Addressed multicollinearity considerations
 
 ## 🔎 Exploratory Data Analysis (EDA)
 
@@ -71,19 +71,19 @@ Model Used: Random Forest Regressor
 
 Why Random Forest?
 
-Handles non-linear relationships
+- Handles non-linear relationships
 
-Works well with mixed numeric & categorical data
+- Works well with mixed numeric & categorical data
 
-Robust to outliers
+- Robust to outliers
 
-No scaling required
+- No scaling required
 
-Data Split
+Data Split:
 
-80% Training
+- 80% Training
 
-20% Testing
+- 20% Testing
 
 ## 📈 Model Performance
 ### Metric	Result
@@ -118,15 +118,15 @@ These results align with real-world smartphone pricing trends.
 
 Python
 
-Pandas
+- Pandas
 
-NumPy
+- NumPy
 
-Matplotlib
+- Matplotlib
 
-Seaborn
+- Seaborn
 
-Scikit-learn
+- Scikit-learn
 
 Jupyter Notebook
 
